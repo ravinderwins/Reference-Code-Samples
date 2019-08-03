@@ -1,4 +1,4 @@
-var BA = angular.module('almabay',['ngStorage', 'LocalStorageModule', 'toastr', 'ngSanitize', 'ngDialog', 'ngRoute', 'ngCookies', 'ui.bootstrap'])
+var BA = angular.module('SocialApp',['ngStorage', 'LocalStorageModule', 'toastr', 'ngSanitize', 'ngDialog', 'ngRoute', 'ngCookies', 'ui.bootstrap'])
 .constant("API", "/");
 
 BA.config(function($routeProvider) {
